@@ -1,7 +1,9 @@
+import styles from './banner.module.sass'
+
 const Banner =()=>{
     return(
-        <div className="banner-container">
-        <img className="banner-image" src="public\baner.png" alt="baner" />
+        <div className={styles['banner-container']}>
+        <img className={styles['banner-image']} src="public\baner.png" alt="baner" />
         </div>
     )
 }

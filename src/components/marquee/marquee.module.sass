@@ -1,0 +1,29 @@
+.float-line
+    width: 100%
+    overflow-x: hidden
+    white-space: nowrap
+    display: flex
+    gap: 77px
+    margin: 75px 0
+    border-top: 2px solid var(--accent2)
+    border-bottom: 2px solid var(--accent2)
+    background-color: var(--accent1)
+    padding: 13px
+    
+    &-item
+        font-size: 25px
+        text-transform: uppercase
+        font-weight: 600
+        color: var(--accent2)
+        animation: marquee 10s linear infinite
+
+
+@keyframes marquee 
+  0%
+    transform: translate(0, 0)
+  
+  
+  100%
+    transform: translate(-160%, 0)
+  
+  
