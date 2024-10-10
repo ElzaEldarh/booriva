@@ -1,21 +1,15 @@
-import styles from './marquee.module.sass'
+import styles from "./marquee.module.sass";
 const Marquee = () => {
+  const marqueeLine = Array(10).fill("Топовые товары");
+
   return (
     <div>
-      <div className={styles['float-line']}>
-        <p className={styles['float-line-item']} >Топовые товары</p>
-        <p className={styles['float-line-item']} >Топовые товары</p>
-        <p className={styles['float-line-item']} >Топовые товары</p>      
-        <p className={styles['float-line-item']} >Топовые товары</p>
-        <p className={styles['float-line-item']} >Топовые товары</p>
-        <p className={styles['float-line-item']} >Топовые товары</p>
-        <p className={styles['float-line-item']} >Топовые товары</p>
-        <p className={styles['float-line-item']} >Топовые товары</p>
-        <p className={styles['float-line-item']} >Топовые товары</p>
-        <p className={styles['float-line-item']} >Топовые товары</p>
-        <p className={styles['float-line-item']} >Топовые товары</p>
-        <p className={styles['float-line-item']} >Топовые товары</p>
-
+      <div className={styles.floatLine}>
+        {marqueeLine.map((line, index) => (
+          <p key={index} className={styles.floatLineItem}>
+            {line}
+          </p>
+        ))}
       </div>
     </div>
   );

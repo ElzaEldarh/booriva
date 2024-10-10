@@ -1,10 +1,10 @@
-import styles from './banner.module.sass'
+import styles from "./banner.module.sass";
 
-const Banner =()=>{
-    return(
-        <div className={styles['banner-container']}>
-        <img className={styles['banner-image']} src="public\baner.png" alt="baner" />
-        </div>
-    )
-}
-export default Banner
+const Banner = () => {
+  return (
+    <div className={styles.bannerContainer}>
+      <img className={styles.bannerImage} src="public\baner.png" alt="baner" />
+    </div>
+  );
+};
+export default Banner;
