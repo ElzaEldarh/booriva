@@ -6,11 +6,14 @@ export const Button = ({ children }) => {
   console.log(styles);
 
   return (
-    <div className={styles.btn}>
+    <div className="container">
+      <div className={styles.btn}>
       <div className={styles.bg}>
         <BtnBgSvg />
       </div>
       <div className={styles.text}>{children}</div>
     </div>
+    </div>
+    
   );
 };

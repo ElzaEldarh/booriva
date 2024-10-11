@@ -5,7 +5,7 @@ import { Button } from "../../components/button/button";
 const HomePage = () => {
   return (
     <main>
-      <Button>Платья</Button>
+      <Button>СМОТРЕТЬ ВСЕ</Button>
       <Banner/>
       <Marquee/>
     </main>
