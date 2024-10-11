@@ -1,6 +1,6 @@
 import styles from "./marquee.module.sass";
 const Marquee = () => {
-  const marqueeLine = Array(10).fill("Топовые товары");
+  const marqueeLine = Array(10).fill("ТОПОВЫЕ ТОВАРЫ");
 
   return (
     <div>
