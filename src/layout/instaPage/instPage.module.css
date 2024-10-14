@@ -1,0 +1,41 @@
+.instaPage {
+  max-width: 1140px;
+  margin: 22px auto 0 auto;
+  display: flex;
+  gap: 6px;
+}
+
+.leftSectionImages {
+  margin-top: 38px;
+  display: flex;
+  gap: 6px;
+  align-items: flex-end;
+}
+
+.croppedImage {
+  height: 168px;
+}
+
+.leftSectionCaption {
+  font-family: Sunday Best;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 103.25px;
+}
+
+.rightSectionImages {
+  display: flex;
+  gap: 6px;
+}
+
+.rightSectionTag {
+  color: var(--accent2);
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 51.2px;
+  margin-top: 60px;
+}
+
+.rightSectionText {
+  margin-left: 94px;
+}/*# sourceMappingURL=instPage.module.css.map */

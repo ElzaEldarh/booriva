@@ -1,0 +1,54 @@
+.footerContainer {
+  background-color: var(--accent1);
+  margin-top: 104px;
+  color: var(--white);
+  font-size: 12px;
+}
+
+.footerBlock {
+  display: flex;
+  justify-content: space-between;
+  gap: 110px;
+  padding: 60px 150px;
+  align-items: flex-start;
+}
+
+.info {
+  color: var(--white);
+}
+
+.infoItems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.infoCaption, .locationCaption, .socialCaption, .feedbackCaption {
+  color: var(--accent2);
+  font-family: "Sunday Best", sans-serif;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.locationInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feedback {
+  max-width: 240px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.socialLogos {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.feedbackText {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=footer.module.css.map */
